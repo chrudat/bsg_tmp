@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontakt</title>
+  <style>
+    /* Grundlayout */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: system-ui, sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: #ffffff;
+      color: #333;
+      text-align: center;
+    }
+
+    /* Logo */
+    img.logo {
+      width: 150px;
+      height: auto;
+      margin-bottom: 20px;
+    }
+
+    /* Kontaktinformationen */
+    .contact-info {
+      background: white;
+      padding: 20px 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      max-width: 90%;
+    }
+
+    .contact-info h1 {
+      margin: 0 0 10px;
+      font-size: 1.5rem;
+    }
+
+    .contact-info p {
+      margin: 5px 0;
+      font-size: 1rem;
+    }
+
+    /* Links */
+    a {
+      color: #0077cc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 600px) {
+      .contact-info {
+        padding: 15px 20px;
+      }
+      img.logo {
+        width: 120px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <img src="logo.gif" alt="Logo" class="logo">
+
+  <div class="contact-info">
+    <h1>Jasmin Norra</h1>
+    <p>Telefon: <a href="tel:+4915771898918">+49 1577 1898918</a></p>
+    <p>E-Mail: <a href="mailto:jasmin.norra@t-online.de">jasmin.norra@t-online.de</a></p>
+  </div>
+</body>
+</html>
